@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day31_varargsstringbuilder.StringBuilder&apos; to &apos;StringBuilder01&apos;&#x0D;&#x0A;- Original project: &apos;winter2021turkish&apos;&#x0D;&#x0A;- Original element: &apos;day31_varargsstringbuilder.StringBuilder&apos;&#x0D;&#x0A;- Renamed element: &apos;day31_varargsstringbuilder.StringBuilder01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringBuilder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day31_varargsstringbuilder{StringBuilder.java[StringBuilder" matchStrategy="1" name="StringBuilder01" qualified="false" references="true" similarDeclarations="false" stamp="1616258069093" textual="false" version="1.0"/>
+</session>

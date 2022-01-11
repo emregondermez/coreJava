@@ -1,0 +1,24 @@
+package day30_ImmutableClasses;
+
+public class C03_DoubleEquals {
+
+	public static void main(String[] args) {
+		
+		String str1 = "Mustafa";
+		String str2 = "Mustafa";
+		String str3 = new String ("Mustafa");
+		String str4 = new String ("Mustafa");
+
+	System.out.println(str1==str3); // false
+	
+	System.out.println(str1.equals(str3)); // true
+	
+	 
+	String a = "  ";
+	a+=2;
+	a+='c';
+	a+=false;
+	System.out.println(a);
+	}
+
+}

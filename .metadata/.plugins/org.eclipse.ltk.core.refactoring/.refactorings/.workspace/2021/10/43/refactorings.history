@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;java2021Tekrar&apos; to &apos;javaFall2021Tekrar&apos;" description="Rename resource &apos;java2021Tekrar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/java2021Tekrar" name="javaFall2021Tekrar" stamp="1635160002591" updateReferences="true"/>
+</session>

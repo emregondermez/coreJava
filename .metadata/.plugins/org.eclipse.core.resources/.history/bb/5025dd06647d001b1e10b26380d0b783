@@ -1,0 +1,33 @@
+package day16;
+
+import java.util.Scanner;
+
+public class C7_ForLoop7 {
+
+	public static void main(String[] args) {
+		// Kullanicidan bir String isteyin ve String i tersine ceviren bir program yazin
+		
+		
+		System.out.println("lutfen bir cumle veya kelime yaziniz");
+		Scanner scan = new Scanner(System.in);
+		String str = scan.nextLine();
+		
+		
+		String str2="";
+		
+		
+		for (int i =str.length(); i <str.charAt(0); i++) {
+			str2+=i;
+		}System.out.println(str2);
+		
+		
+		
+		
+		
+		
+		
+		
+	scan.close();	
+	}
+
+}

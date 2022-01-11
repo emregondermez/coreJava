@@ -1,0 +1,42 @@
+package techproed.jdbcOrnekler;
+
+import java.sql.*;
+
+public class JdbcQuery02 {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+		Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/sys?serverTimezone=UTC", "root", "1234");
+
+		 Statement st= con.createStatement();
+
+		 /*=======================================================================
+		 ORNEK1: Bolumler tablosundaki tum kayitlari listeleyen bir sorgu yaziniz.
+		========================================================================*/ 
+	
+		 ResultSet tablo  = st.executeQuery("SELECT * FROM bolumler");
+		 
+		 while(tablo.next()) {
+			 System.out.println(tablo.getInt(1)+" "+tablo.getString("bolum_isim")+" "+tablo.getString(3));
+		 System.out.println("-----------------------");
+		 }
+		 System.out.println("\n=====================================");
+		 
+		 /*=======================================================================
+		 ORNEK2: SATIS ve MUHASEBE bolumlerinde calisan personelin isimlerini ve 
+ 		 maaslarini, maas ters sirali olarak listeleyiniz
+ 		 ========================================================================*/ 
+	
+		 String sorgu = "SELECT isim,maas FROM personel WHERE bolum_id in(10,30) ORDER BY maas DESC";
+		ResultSet tablo2= st.executeQuery(sorgu);
+	
+		while(tablo2.next()) {
+			 System.out.println(tablo2.getString("isim")+"\t\t"+tablo2.getInt("maas"));
+		
+		 }
+		 
+	}
+
+}

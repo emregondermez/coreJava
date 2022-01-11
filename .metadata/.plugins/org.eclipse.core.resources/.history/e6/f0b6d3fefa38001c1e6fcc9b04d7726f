@@ -1,0 +1,36 @@
+package day05;
+
+import java.util.Scanner;
+
+public class C01_Modulus {
+
+	public static void main(String[] args) {
+		// Kullanicidan 3 basamakli bir sayi alip
+		// rakamlar toplamini yazdiran bir program yaziniz
+
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Lutfen 3 basamakli bir sayi yaziniz : ");
+		int sayi = scan.nextInt();
+		
+		// son basamaktan kurtulmakm icin sayiyi 10'a boleriz
+		// daha sonra sayinin geri kalan son basamagindaki sayiyi bulmak icin sayinin %10 unun aliriz
+		
+		
+		int birler = sayi%10;
+		int onlar = (sayi/10)%10;
+		int yuzler = (sayi/100)%10;
+		System.out.println("Rakamlar Toplami = "+(birler+onlar+yuzler));
+		
+		int rakamlarToplami = 0;
+		
+		rakamlarToplami+=sayi%10;
+		
+		sayi/=10;
+		
+		
+		
+		scan.close();
+		
+	}
+
+}

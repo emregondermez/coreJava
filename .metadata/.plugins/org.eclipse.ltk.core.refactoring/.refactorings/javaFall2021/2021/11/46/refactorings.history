@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;day21&apos; to &apos;day21_Scope_Arrays&apos;&#x0D;&#x0A;- Original project: &apos;javaFall2021&apos;&#x0D;&#x0A;- Original element: &apos;javaFall2021/src/day21&apos;&#x0D;&#x0A;- Renamed element: &apos;javaFall2021/src/day21_Scope_Arrays&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;day21&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;day21" name="day21_Scope_Arrays" qualified="false" references="true" stamp="1637517179078" textual="false" version="1.0"/>
+</session>
