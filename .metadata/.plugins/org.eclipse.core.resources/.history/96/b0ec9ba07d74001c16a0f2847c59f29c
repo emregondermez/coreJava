@@ -1,13 +1,10 @@
 package day42_AbstractClasses;
 
-public  class AbsUstaBasi  extends AbsIsci{
+public abstract class AbsUstaBasi {
 
 	public static void main(String[] args) {
-	
-	}
+		// TODO Auto-generated method stub
 
-	public void statu() {
-		
 	}
 
 }

@@ -6,7 +6,9 @@ public  class AbsUstaBasi  extends AbsIsci{
 	
 	}
 
+	@Override
 	public void statu() {
+		// TODO Auto-generated method stub
 		
 	}
 
