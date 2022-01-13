@@ -1,0 +1,12 @@
+package day42_AbstractClasses;
+
+import java.nio.channels.AsynchronousByteChannel;
+
+public class UstaBasi extends Isci{
+
+	
+	UstaBasi usb1 =new UstaBasi();
+	
+	usb1.statu();
+	
+}

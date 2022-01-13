@@ -1,0 +1,15 @@
+package day42_AbstractClasses;
+
+
+
+public class UstaBasi extends Isci{
+
+	
+public static void main(String[] args) {
+	UstaBasi usb1 =new UstaBasi();
+	
+	usb1.statu();
+	usb1.maas();
+	usb1.mesai();
+}
+}
